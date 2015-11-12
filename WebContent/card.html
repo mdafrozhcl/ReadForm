@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Form example</title>
+</head>
+<body>
+<form name="sample" action="/ReadFormFields/CardServlet" style="text-align: center;" method="post">
+	<table align="center" border="1">
+		<tr>
+			<th colspan="2" align="center">Sample Form</th>
+		</tr>
+		<tr>
+			<th align="right">Name:</th>
+			<td><input type="text" name="Name" autofocus="autofocus"/></td>
+		</tr>
+		<tr>
+			<th align="right">Card number:</th>
+			<td><input type="text" name="Cardnum" /></td>
+		</tr>
+		<tr>
+			<th align="right">Retype Card number:</th>
+			<td><input type="text" name="Cardnum" /></td>
+		</tr>
+		<tr>
+			<th align="right">Gender:</th>
+			<td><input type="radio" name="Gender" value="female" />female
+			<input type="radio" name="Gender" value="male" />male
+			</td>
+		</tr>
+		<tr>
+			<th align="right">Card Type:</th>
+			<td><input type="checkbox" name="Cardtype" value="Visa"/>Visa
+			<input type="checkbox" name="Cardtype" value="Maestro"/>Maestro
+			<input type="checkbox" name="Cardtype" value="MasterCard"/>Master
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><input type="submit"
+				value="Click me" /></td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
